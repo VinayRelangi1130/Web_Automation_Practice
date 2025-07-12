@@ -15,7 +15,10 @@
 # driver.implicitly_wait(10)
 #
 # from_loc = wait.until(EC.presence_of_element_located((By.XPATH,"//input[@placeholder='Leaving From']")))
-# from_loc.send_keys("kakinada")
+# ''' need if else conditions and assertions  '''
+#
+#
+# from_loc.send_keys("@#$ada@")
 # time.sleep(2)
 # from_loc.send_keys(Keys.ENTER)
 #
@@ -67,3 +70,7 @@
 # time.sleep(2)
 #
 # driver.quit()
+
+
+
+
